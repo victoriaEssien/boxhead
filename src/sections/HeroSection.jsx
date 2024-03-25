@@ -14,11 +14,11 @@ function HeroSection() {
         <MainNav />
         <div className='px-4 md:px-12 flex flex-col md:flex-row'>
             <div className='-mt-6'>
-                <h1 className='text-3xl md:text-[64px] font-ssp font-bold text-[#011805] mt-8 md:mt-20 w-full md:w-[645px] leading-relaxed md:leading-[80px]'>Dare to Dream in Colors and Watch as We Make It Real.</h1>
+                <h1 className='text-3xl md:text-[64px] font-ssp font-bold text-[#011805] mt-8 md:mt-20 w-full md:w-[645px] leading-normal md:leading-[80px]'>Dare to Dream in Colors and Watch as We Make It Real.</h1>
                 <p className='mt-6 md:mt-3 font-ssp font-semibold w-full md:w-[617px] leading-relaxed text-lg text-[#002105]'>Discover the unique world of Pelumi Olusanmi – a place where each brushstroke unfolds a narrative, weaving tales of dreams, emotions, and the unspoken language of art.   </p>
                 <div className='mt-6'>
                 <Link>
-                  <button type='button' className='bg-[#00A41A] rounded-[10px] text-center block md:inline font-ssp text-white text-[19px] font-medium w-full md:w-[170px] px-[27px] py-[12px] md:mr-4 hover:bg-primary-700'>Contact Us</button>
+                  <button type='button' className='bg-[#00A41A] rounded-[10px] text-center block md:inline font-ssp text-white text-[19px] font-medium w-full md:w-[170px] px-[27px] py-[12px] md:mr-4 hover:bg-[#009919]'>Contact Us</button>
                 </Link>
                 <Link to='/login'>
                   <button type='button' className='border border-[#00A41A] rounded-[10px] text-center block md:inline font-ssp text-[#00A41A] text-[19px] font-medium w-full md:w-[200px] px-[27px] py-[12px] mt-4'>Explore Artwork</button>

@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import { HeroSection } from './sections'
+import { HeroSection, Stats, About, FeaturedArt, StayConnected } from './sections'
 
 function App() {
   return (
@@ -11,6 +11,10 @@ function App() {
           <Route exact path="/" element={
             <>
               <HeroSection />
+              <Stats />
+              <About />
+              <FeaturedArt />
+              <StayConnected />
             </>
           }>
           </Route>
