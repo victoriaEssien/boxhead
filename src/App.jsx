@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import { HeroSection, Stats, About, FeaturedArt, StayConnected } from './sections'
+import { HeroSection, Stats, About, FeaturedArt, StayConnected, Footer } from './sections'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
               <About />
               <FeaturedArt />
               <StayConnected />
+              <Footer />
             </>
           }>
           </Route>
