@@ -22,8 +22,8 @@ function StayConnected() {
           <div className='-mt-12'>
               <p className='mt-8 md:mt-16 font-ssp font-normal w-full md:w-[515px] leading-8 text-[19px] text-[#002105]'>Be part of Pelumi&apos;s artistic journey. Follow us on social media, and subscribe to our newsletter for exclusive updates, offers, and insights direct from the studio</p>
               <div className='mt-10 flex items-center'>
-              <input type="text" className='block w-full md:w-11/12 rounded-lg border-2 border-[#E4E1E1] px-4 py-5 text-[16px] font-ssp text-[#011805] md:pl-8 placeholder:text-[#011805]' placeholder='Enter Your E-mail Address' />
-              <button type='button' className='absolute text-[19px] bg-[#00A41A] text-[#FFF] font-ssp right-[18px] md:right-[92px] px-6 py-[18px] rounded-r-lg rounded-l-[32px]'>Subscribe</button>
+              <input type="text" className='block w-full md:w-11/12 rounded-lg border-2 border-[#E4E1E1] px-4 py-5 text-[14px] md:text-[16px] font-ssp text-[#011805] md:pl-8 placeholder:text-[#011805]' placeholder='Enter Your E-mail Address' />
+              <button type='button' className='absolute text-[19px] bg-[#00A41A] text-[#FFF] font-ssp right-[18px] md:right-[92px] px-6 py-[16px] md:py-[18px] rounded-r-lg rounded-l-[32px]'>Subscribe</button>
               </div>
               <h5 className="font-ssp font-semibold text-[#011805] text-[19px] leading-6 mt-12">Follow Pelumi On:</h5>
               <div className="flex flex-row gap-5 mt-8">
