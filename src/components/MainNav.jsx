@@ -12,17 +12,17 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 function MainNav() {
     
     const navigation = [
-        {name: 'Home', href: '/'},
-        {name: 'About', href: '#'},
-        {name: 'Portfolio', href: '#'},
-        {name: 'Commission', href: '#'},
+        {name: 'Home', href: '/', hex: '#00A41A'},
+        {name: 'About', href: '#', hex: '#003709'},
+        {name: 'Portfolio', href: '#', hex: '#003709'},
+        {name: 'Commission', href: '#', hex: '#003709'},
     ]
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className='bg-white'>
-        <header className='inset-x-0 top-0 z-50'>
+    <div className='bg-white fixed top-0 z-50 w-full'>
+        <header className='inset-x-0'>
             <nav className='flex items-center justify-between p-4 lg:px-12' aria-label='Global'>
                 <div className='flex lg:flex mr-8'>
                     <Link className='-m-1.5 p-1.5'>
@@ -37,7 +37,7 @@ function MainNav() {
                 </div>
                 <div className='hidden lg:flex lg:gap-x-10 mx-auto'>
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className='text-[19px] font-ssp leading-6 text-[#003709] font-semibold'>{item.name}</a>
+                        <a key={item.name} href={item.href} className='text-[19px] font-ssp font-semibold leading-6 text-${item.hex' style={{ color: item.hex }}>{item.name}</a>
                     ))}
                 </div>
                 <div className='hidden lg:flex lg:justify-end space-x-6'>

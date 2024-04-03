@@ -34,17 +34,17 @@ function Stats() {
   }, [projectCount, customerCount, testimonialCount]);
 
   return (
-    <div className="mt-20 flex flex-col md:flex-row justify-center">
+    <div className="mt-10 md:mt-20 flex flex-col gap-y-10 md:gap-y-0 md:flex-row justify-center">
       <div className="text-center px-10">
         <h4 className="font-ssp font-bold text-[28px] text-[#002105] leading-9">{projectCount}+</h4>
         <h5 className="font-ssp font-normal text-2xl text-[#002105] leading-8">Projects</h5>
       </div>
-      <img className="w-4" src={HorizontalArrow} alt="" />
+      <img className="w-4 hidden md:block" src={HorizontalArrow} alt="" />
       <div className="text-center px-10">
         <h4 className="font-ssp font-bold text-[28px] text-[#002105] leading-9">{customerCount}+</h4>
         <h5 className="font-ssp font-normal text-2xl text-[#002105] leading-8">Customers</h5>
       </div>
-      <img className="w-4" src={HorizontalArrow} alt="" />
+      <img className="w-4 hidden md:block" src={HorizontalArrow} alt="" />
       <div className="text-center px-10">
         <h4 className="font-ssp font-bold text-[28px] text-[#002105] leading-9">{testimonialCount}+</h4>
         <h5 className="font-ssp font-normal text-2xl text-[#002105] leading-8">Testimonials</h5>

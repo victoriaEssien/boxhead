@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         ssp: ['Source Serif Pro', 'serif'],
-        rwp: ['Rubik Wet Paint', 'system-ui']
+        rwp: ['Rubik Wet Paint', 'system-ui'],
+        montserrat: ['Montserrat', 'sans-serif']
       },
     },
   },

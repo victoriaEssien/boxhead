@@ -19,17 +19,17 @@ import VerticalArrow from "../assets/icons/vertical-arrow.svg"
 
 function FeaturedArt() {
   return (
-    <div className="mt-24">
+    <div className="mt-24 px-3">
         <h3 className="font-ssp text-[34px] font-bold text-[#00A41A] text-center">Featured Artworks</h3>
-        <p className="text-[19px] font-ssp font-normal text-center mx-auto w-[923px] text-[#011805]">A curated selection showcasing the diverse range of Pelumi&apos;s talent. From bold artboards to painted apparel, discover the pieces that capture the imagination of art lovers worldwide.</p>
+        <p className="text-[19px] font-ssp font-normal text-center mx-auto w-[360px] md:w-[923px] text-[#011805]">A curated selection showcasing the diverse range of Pelumi&apos;s talent. From bold artboards to painted apparel, discover the pieces that capture the imagination of art lovers worldwide.</p>
 
-        <div className="flex flex-row justify-center flex-wrap w-fit gap-6 mt-16">
+        <div className="flex flex-col md:flex-row justify-center flex-wrap w-fit gap-6 mt-16">
             <div className="">
-                <img className="w-[380px] h-[258px] rounded-[10px]" src={ArtworkOne} alt="" />
-                <img className="w-[380px] rounded-[10px] mt-10" src={ArtworkFour} alt="" />
+                <img className="w-full md:w-[380px] h-[258px] rounded-[10px]" src={ArtworkOne} alt="" />
+                <img className="w-full md:w-[380px] rounded-[10px] mt-10" src={ArtworkFour} alt="" />
             </div>
             <div>
-                <img className="w-[380px] rounded-[10px]" src={ArtworkTwo} alt="" />
+                <img className="w-full md:w-[380px] rounded-[10px]" src={ArtworkTwo} alt="" />
             </div>
             <div>
                 <img className="w-[380px] rounded-[10px]" src={ArtworkThree} alt="" />
@@ -48,7 +48,7 @@ function FeaturedArt() {
             </div>
         </div>
 
-        <Link className="flex items-center justify-center gap-x-2.5 mx-auto mt-12 mb-4 border border-[#00A41A] w-[360px] md:w-[217px] px-[30px] py-[12px] rounded-[10px]">
+        <Link className="flex items-center justify-center gap-x-2.5 mx-auto mt-12 mb-4 border border-[#00A41A] w-full md:w-[217px] px-[30px] py-[12px] rounded-[10px]">
             <p className="text-[19px] font-ssp font-semibold text-[#00A41A]">See More</p>
             <img className="" src={VerticalArrow} />
         </Link>
