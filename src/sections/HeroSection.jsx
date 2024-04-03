@@ -14,7 +14,7 @@ function HeroSection() {
         <MainNav />
         <div className='px-4 md:px-12 mt-20 flex flex-col md:flex-row'>
             <div className='-mt-6'>
-                <h1 className='text-3xl md:text-[64px] font-ssp font-bold text-[#011805] mt-8 md:mt-20 w-full md:w-[645px] leading-normal md:leading-[80px]'>Dare to Dream in Colors and Watch as We Make It Real.</h1>
+                <h1 className='text-4xl md:text-[64px] font-ssp font-bold text-[#011805] mt-8 md:mt-20 w-full md:w-[645px] leading-normal md:leading-[80px]'>Dare to Dream in Colors and Watch as We Make It Real.</h1>
                 <p className='mt-6 md:mt-3 font-ssp font-semibold w-full md:w-[617px] leading-relaxed text-lg text-[#002105]'>Discover the unique world of Pelumi Olusanmi – a place where each brushstroke unfolds a narrative, weaving tales of dreams, emotions, and the unspoken language of art.   </p>
                 <div className='mt-6'>
                 <Link>
