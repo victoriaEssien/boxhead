@@ -64,7 +64,7 @@ function MainNav() {
                         <div className='-m-y-6 divide-y divide-gray-500/10'>
                             <div className='space-y-2'>
                                 {navigation.map((item) => (
-                                    <a key={item.name} href={item.href} className='-mx-3 block rounded-lg px-7 py-2 text-lg font-ssp font-semibold leading-7 text-[#003709] hover:bg-gray-50'>{item.name}
+                                    <a key={item.name} href={item.href} className='-mx-3 block rounded-lg px-7 py-2 text-lg font-ssp font-semibold leading-7 text-[#003709] hover:bg-gray-50' style={{ color: item.hex }}>{item.name}
                                     </a>
                                 ))}
                             </div>
