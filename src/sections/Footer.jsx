@@ -15,7 +15,7 @@ function Footer() {
       <div className="w-fit">
       <h1 className='font-rwp font-normal text-[32px] text-[#008916] leading-8'>BOXHEAD</h1>
       <p className="font-montserrat font-semibold text-[#FFFFFF] mt-16 md:mt-32 text-base md:text-[19px] leading-6">Subscribe to Our Weekly Newsletter</p>
-      <div className='mt-4 flex items-center mb-14 mt:mb-0'>
+      <div className='mt-4 flex items-center mb-14 mt:mb-0 mx-auto'>
         <input type="text" className='block w-[360px] md:w-[380px] px-4 py-4 text-[14px] font-montserrat text-[#220021] pl-6 placeholder:text-[#011805]' placeholder='Enter Your E-mail Address' />
         <button type='button' className='absolute bg-[#00A41A] left-[293px] md:left-[344px] px-8 py-[22px]'>
           <img className="w-[20px]" src={WhiteVerticalArrow} alt="" />
